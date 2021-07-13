@@ -1,0 +1,47 @@
+@media(min-width: 0px) and (max-width: 575px){
+
+    /**** Header CSS ****/
+    nav.navbar {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .navbar-light .navbar-toggler i {
+        color: white;
+        font-size: 25px;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    ul.navbar-nav {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{
+        width: fit-content;
+        margin: auto;
+    }
+    li.nav-item {
+        margin-top: 10px;
+    }
+    .btn-get_started {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    /**** Header Bottom CSS ****/
+    .header_bottom {
+        min-height: 70vh;
+        text-align: center;
+    }
+    .btn-learn_more {
+        padding: 10px 20px;
+        margin-top: 25px;
+    }
+
+    /**** Features CSS ****/
+    .features {
+        margin-top: 40px;
+    }
+}
